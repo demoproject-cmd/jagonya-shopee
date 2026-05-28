@@ -108,6 +108,8 @@ const products = {
       { id: 3, name: "ALETIA Fragrance Mist 100ml", link: "https://s.shopee.co.id/6feNUKrZ3e", price: "Rp38.000", rating: 4.6, sold: "2.9rb", img: "/products/bodymist-ocean.jpg", discount: 18 },
       { id: 4, name: "Holigrels Parfume Bodymist", link: "https://s.shopee.co.id/5q5GUp224j", price: "Rp28.000", rating: 4.9, sold: "5.2rb", img: "/products/bodymist-vanilla.jpg", discount: 35 },
       { id: 5, name: "BRASOV Parfum Female Pearl EDP 35ML Combo", link: "https://s.shopee.co.id/2LVOKPIjYN", price: "Rp30.000", rating: 4.7, sold: "4.1rb", img: "/products/bodymist-peach.jpg", discount: 25 },
+      { id: 6, name: "HEURA Scandal Body Mist 100ml", link: "https://s.shopee.co.id/9ALooIWPqa", price: "Rp45.000", rating: 4.8, sold: "5.2rb", img: "/products/batch3/bodymist_01.jpg", discount: 25 },
+      { id: 7, name: "SLAVINA Body Mist Red Opium by Nagita", link: "https://s.shopee.co.id/LkQI67hjG", price: "Rp38.000", rating: 4.7, sold: "6.8rb", img: "/products/batch3/bodymist_02.jpg", discount: 22 },
     ],
   },
   haircare: {
