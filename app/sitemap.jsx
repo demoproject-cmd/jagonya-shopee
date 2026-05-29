@@ -14,6 +14,14 @@ export default function sitemap() {
     haircare: ['haircare']
   }
 
+  const blogPosts = [
+    'skincare-routine-untuk-pemula',
+    'sunscreen-terbaik-untuk-kulit-berminyak',
+    'rekomendasi-lip-tint-terlaris',
+    'parfum-wanita-tahan-lama',
+    'cara-mengatasi-jerawat'
+  ]
+
   const entries = [
     {
       url: baseUrl,
@@ -42,6 +50,23 @@ export default function sitemap() {
         changeFrequency: 'weekly',
         priority: 0.6
       })
+    })
+  })
+
+  // Add blog pages
+  entries.push({
+    url: `${baseUrl}/blog`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly',
+    priority: 0.7
+  })
+
+  blogPosts.forEach(slug => {
+    entries.push({
+      url: `${baseUrl}/blog/${slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.7
     })
   })
 
