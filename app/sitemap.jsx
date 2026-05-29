@@ -1,7 +1,7 @@
 export const dynamic = 'force-static'
 
 export default function sitemap() {
-  const baseUrl = 'https://jagonya.my.id'
+  const baseUrl = 'https://www.jagonya.my.id'
 
   const categories = [
     'skincare', 'makeup', 'parfum', 'haircare'
